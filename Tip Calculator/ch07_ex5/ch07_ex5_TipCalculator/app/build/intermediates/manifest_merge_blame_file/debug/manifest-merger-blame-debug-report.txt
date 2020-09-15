@@ -1,0 +1,45 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.murach.tipcalculator"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="15"
+8-->C:\Users\denny\Documents\Spring2020\SDEV 264\ch07_ex5\ch07_ex5_TipCalculator\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="23" />
+9-->C:\Users\denny\Documents\Spring2020\SDEV 264\ch07_ex5\ch07_ex5_TipCalculator\app\src\main\AndroidManifest.xml
+10
+11    <application
+11-->C:\Users\denny\Documents\Spring2020\SDEV 264\ch07_ex5\ch07_ex5_TipCalculator\app\src\main\AndroidManifest.xml:6:5-20:19
+12        android:allowBackup="true"
+12-->C:\Users\denny\Documents\Spring2020\SDEV 264\ch07_ex5\ch07_ex5_TipCalculator\app\src\main\AndroidManifest.xml:10:9-35
+13        android:debuggable="true"
+14        android:icon="@drawable/ic_launcher"
+14-->C:\Users\denny\Documents\Spring2020\SDEV 264\ch07_ex5\ch07_ex5_TipCalculator\app\src\main\AndroidManifest.xml:7:9-45
+15        android:label="@string/app_name"
+15-->C:\Users\denny\Documents\Spring2020\SDEV 264\ch07_ex5\ch07_ex5_TipCalculator\app\src\main\AndroidManifest.xml:8:9-41
+16        android:theme="@style/AppTheme" >
+16-->C:\Users\denny\Documents\Spring2020\SDEV 264\ch07_ex5\ch07_ex5_TipCalculator\app\src\main\AndroidManifest.xml:9:9-40
+17        <activity
+17-->C:\Users\denny\Documents\Spring2020\SDEV 264\ch07_ex5\ch07_ex5_TipCalculator\app\src\main\AndroidManifest.xml:11:9-19:20
+18            android:name="com.murach.tipcalculator.TipCalculatorActivity"
+18-->C:\Users\denny\Documents\Spring2020\SDEV 264\ch07_ex5\ch07_ex5_TipCalculator\app\src\main\AndroidManifest.xml:12:13-50
+19            android:label="@string/app_name"
+19-->C:\Users\denny\Documents\Spring2020\SDEV 264\ch07_ex5\ch07_ex5_TipCalculator\app\src\main\AndroidManifest.xml:13:13-45
+20            android:windowSoftInputMode="stateUnchanged" >
+20-->C:\Users\denny\Documents\Spring2020\SDEV 264\ch07_ex5\ch07_ex5_TipCalculator\app\src\main\AndroidManifest.xml:14:13-57
+21            <intent-filter>
+21-->C:\Users\denny\Documents\Spring2020\SDEV 264\ch07_ex5\ch07_ex5_TipCalculator\app\src\main\AndroidManifest.xml:15:13-18:29
+22                <action android:name="android.intent.action.MAIN" />
+22-->C:\Users\denny\Documents\Spring2020\SDEV 264\ch07_ex5\ch07_ex5_TipCalculator\app\src\main\AndroidManifest.xml:16:17-69
+22-->C:\Users\denny\Documents\Spring2020\SDEV 264\ch07_ex5\ch07_ex5_TipCalculator\app\src\main\AndroidManifest.xml:16:25-66
+23
+24                <category android:name="android.intent.category.LAUNCHER" />
+24-->C:\Users\denny\Documents\Spring2020\SDEV 264\ch07_ex5\ch07_ex5_TipCalculator\app\src\main\AndroidManifest.xml:17:17-77
+24-->C:\Users\denny\Documents\Spring2020\SDEV 264\ch07_ex5\ch07_ex5_TipCalculator\app\src\main\AndroidManifest.xml:17:27-74
+25            </intent-filter>
+26        </activity>
+27    </application>
+28
+29</manifest>
