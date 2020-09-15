@@ -1,0 +1,96 @@
+*{box-sizing:border-box;}
+body { background-image: url(images/Clarksbackground2.jpg);
+		background-attachment: fixed;
+		color: #221811;
+		font-family: Verdana, Arial, sans-serif;
+		background-size: cover;
+		margin: 0px;
+		
+		
+		}
+header { Background-image: url(images/Clarkslogo.png);
+		
+		
+		font-weight: bold;
+		background-repeat: no-repeat;
+		text-align: center;
+		display:block;
+		height:169px;
+		margin:0;
+		color:#000000;}
+		
+h1 		{padding-top:45px; 
+		padding-left: 250px;
+		text-align: center;
+		font-size:2.0em }
+nav 	{padding-left:0; width: 200px; height: 1080px; font-size: 4em; padding-top: 10px;
+		text-align: left; display: block;
+			font-weight: bold;
+			height: 100%;}
+nav a {text-decoration: none;}
+	a:link {color: #000000;}
+	a:visited { color: #9400D3;}
+	a:hover {color: #0000FF;}
+nav ul { margin:0px; padding:0; list-style: none;}
+nav ul li {float: left;
+			width: 250px;
+			height: 100%;
+			
+			line-height:50px;
+			text-align: center;
+			font-size:20px;}
+nav ul li a {text-decoration:none;
+			 color:#000000;
+			 display: inline-block;}
+nav ul li a:hover {background-color:#0066FF; }
+nav ul li ul li {display: none;}
+nav ul li:hover ul li {display: inline-block;}
+main 	{ padding-left: 10px; 
+		  padding-right: 0; 
+		  padding-bottom: 3em; 
+		  padding-top: 0; 
+		   margin-left: 250px; 
+		  font-size:1.25em; 
+		   }
+dt {list-style:none;}
+ol {list-style:none;}
+footer	{	
+			border: 2px solid #221811;
+			padding-bottom:10px;
+			background-color:#006699;
+			font-size: .90em;
+			font-style: italic; 
+			text-align: center;
+			display: block;}
+label {
+	display: inline-block;
+	clear: left;
+	width: 200px;
+	text-align: left;}
+input {
+	display:inline-block;
+	
+}
+.floatleft {padding-right: 2em; padding-bottom: 2em;}
+.details { padding-left: 5%; padding-right: 20%; overflow: auto;}
+tr:nth-of-type(odd) {background-color: #99ccff; }
+#map {
+	width: 100%;
+	min-height: 300px;
+ }
+#wrapper {
+		  width: 100%;
+		  height: 100%;
+		  min-width: 960px;
+		  max-width: 1280px; 
+		  min-height: 960px;
+		  box-shadow: 5px 5px 5px #828282;
+		  background-color: #dcdcdc;
+background-color: rgba(255, 255, 255, 0.7);}
+@media only screen and (max-width: 1024px){
+	#wrapper {width:auto; min-width: 0; margin:0; }
+	
+@media only screen and (max-width: 768px){
+	#wrapper {width:auto; min-width: 0; margin:0; }
+}
+}

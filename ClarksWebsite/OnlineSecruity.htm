@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="clarks.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="wrapper">
+      
+    <nav>
+                <ul>
+                    <li><a href="home.html">Home</a> </li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="priceCalculator.html">Service Calculator</a></li>
+                    <li><a href="webdevelopment.html">Web Development</a></li> 
+                    <li><a href="aboutus.html">About Us</a></li>
+                    <li><a href="OnlineSecruity.htm">Security</a></li> 
+                    <li><a href="careers.html">Careers</a>
+                         <ul>
+                            <li><a href="jobs.html">Jobs</a></li>
+                            <li><a href="application.html">Application</a></li>
+                        </ul>
+                    </li> 
+                        
+                </ul>
+    </nav>
+    <main>
+    <p><strong>Staying safe online has become a very in depth topic requring many different strategies to combine in order to remain safe. 
+        While many people understand that an email from some random person saying that if you give them $100 they will return to you 
+        $500 when they get into the United States is a scam, just as many people will actually fall for this. Understanding how to 
+        sort out legitimate emails, websites, and downloads is a skill learned over time, but I have gathered a few different sources 
+        that can help jump start your knowledge below.
+
+        Below is a list of just some of the information that a website can gather about you just from visiting. 
+        Read more below about how to stay safe online.
+    </strong></p>
+    <ul>
+        <li id = 1>Web Browser Name: <script>document.write(navigator.appName);</script></li>
+        <li id = 2>Web browser Version: <script>document.write(navigator.appVersion);</script></li>
+        <li id = 3>Location: <script>document.write(navigator.geolocation)</script></li>
+        <li id = 4>Online Status: <script>document.write(navigator.onLine)</script></li>
+        <li id = 5>operating Platform: <script>document.write(navigator.platform)</script></li>
+        <li id = 6>User <script>document.write(navigator.userAgent)</script></li>
+    </ul>
+        <p><strong>Clearing cookies that you don’t want or need is the best way to keep sites from tracking you.
+            <a href = "https://support.microsoft.com/en-us/help/17442/windows-internet-explorer-delete-manage-cookies">Delete cookies</a><br><br>
+            
+            It is very easy to clone a real website and does not take a skilled developer long to produce a very professional-looking, but malicious site.
+            Get Safe Online <a href = "https://www.getsafeonline.org/protecting-your-computer/safe-internet-use/">Safe Internet Usage</a><br>
+        <br>    
+            Use strong unique passwords online. Learn how to create strong passwords and passphrases.
+            Stay Smart Online <a href = "https://www.securedatarecovery.com/resources/the-importance-of-strong-secure-passwords">Secure Passwords</a><br>
+        <br>
+        </strong></p>
+    </div>
+    <div id = "map"></div>
+    <script >
+        var position;
+       function location(position){
+          var currPosLat = position.coords.latitude;
+          var currPosLng = position.coords.longitude;
+          var mapOptions = {
+          center: new google.maps.LatLng(currPosLat, currPosLng),
+          zoom: 12 
+          };
+          var map = new google.maps.Map(document.getElementById("map"),
+          mapOptions);
+        }
+        location(); 
+    </script>
+    <Footer>
+        Copyright &copy; 2019 Clark's Computers <br>
+        <a href="Willard@Clark.com">Willard@Clark.com</a>
+    </footer>
+</main>
+<script></script>
+</body>
+</html>
